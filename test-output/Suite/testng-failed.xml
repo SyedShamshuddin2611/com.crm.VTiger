@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="TestCase_Repository.LE_02">
+        <methods>
+          <include name="closeDbCOnnection"/>
+          <include name="closeBrowser"/>
+          <include name="le_02Tc"/>
+          <include name="launchBrowser"/>
+          <include name="createDbConnection"/>
+          <include name="SignOutButton"/>
+          <include name="loginOperation"/>
+        </methods>
+      </class> <!-- TestCase_Repository.LE_02 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
